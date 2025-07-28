@@ -67,7 +67,7 @@ export default function GettingStartedPage() {
       </h1>
       <p className="mb-8 text-gray-700 text-lg">
         Getting started with TDL is simple if you follow the right steps.
-        Here's a beginner-friendly path to help you dive in.
+        Here is a beginner-friendly path to help you dive in.
       </p>
 
       <div className="space-y-8">
