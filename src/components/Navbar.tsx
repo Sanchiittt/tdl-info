@@ -1,39 +1,4 @@
-// 'use client';
-// import Link from 'next/link';
 
-// export default function Navbar() {
-//   return (
-//     <nav className="bg-white shadow-md text-gray-800 p-4 flex justify-between">
-//       <h1 className="text-xl font-bold">TDL Guide</h1>
-//       <div className="space-x-4">
-//         <Link href="/tdl">Home</Link>
-//         <Link href="/tdl/what-is-tdl">What is TDL</Link>
-//         <Link href="/tdl/applications">Applications</Link>
-//         <Link href="/tdl/getting-started">Getting Started</Link>
-//         <Link href="/tdl/resources">Resources</Link>
-//       </div>
-//     </nav>
-//   );
-// }
-
-
-// 'use client';
-
-// import Link from 'next/link';
-
-// export default function Navbar() {
-//   return (
-//     <nav style={{ padding: '1rem', background: '#f0f4ff', display: 'flex', justifyContent: 'space-between' }}>
-//       <h1 style={{ fontWeight: 'bold' }}>TDL Guide</h1>
-//       <div style={{ display: 'flex', gap: '1rem' }}>
-//         <Link href="/">Home</Link>
-//         <Link href="/what-is-tdl">What is TDL?</Link>
-//         <Link href="/applications">Applications</Link>
-//         <Link href="/getting-started">Getting Started</Link>
-//       </div>
-//     </nav>
-//   );
-// }
 
 
 import Link from 'next/link'
