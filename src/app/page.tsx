@@ -430,7 +430,7 @@ export default function HeroSection() {
           This documentation is built by the community, for the community.
         </p>
         <p className="text-gray-700 text-base max-w-3xl mx-auto mb-4">
-          If you're interested in learning TDL, found a bug, or want to improve our docs — your contributions are more than welcome.
+          If you&apos;re interested in learning TDL, found a bug, or want to improve our docs — your contributions are more than welcome.
         </p>
         <p className="text-gray-700 text-base max-w-3xl mx-auto mb-6">
           Help us build a robust, beginner-friendly TDL knowledge base and empower other developers!
