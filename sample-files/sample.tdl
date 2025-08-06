@@ -1,0 +1,29 @@
+[#Menu: Gateway of Tally]
+
+    Add: Button: MyCustomButton
+
+[Button: MyCustomButton]
+    Title       : "Say Hello"
+    Key         : Alt + H
+    Action      : Display: My Hello Report
+    Background  : Blue
+
+[Report: My Hello Report]
+    Form        : My Hello Form
+
+[Form: My Hello Form]
+    Parts       : My Hello Part
+    Width       : 100% Screen
+    Height      : 100% Screen
+    Background  : Red
+
+[Part: My Hello Part]
+    Lines       : My Hello Line
+
+[Line: My Hello Line]
+    Fields      : My Hello Field
+
+[Field: My Hello Field]
+    Set As      : "Hello, welcome to TDL world!"
+    Align       : Center
+    Style       : Normal

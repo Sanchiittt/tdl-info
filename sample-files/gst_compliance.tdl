@@ -1,0 +1,26 @@
+[#Part: EI StatutoryDetails]
+
+    Add: Line: After: EI Stat Dispatch: GSTComplianceLine
+
+[Line: GSTComplianceLine]
+
+    Fields: GSTComplianceField
+    Right Fields: GSTComplianceValue
+    Space Top: 0.5
+
+[Field: GSTComplianceField]
+
+    Set as: "GST Compliance Category"
+    Width: 25
+    Style: Normal
+
+[Field: GSTComplianceValue]
+
+    Use: Short Prompt
+    Storage: GSTComplianceCategory
+    Width: 40
+    Max: 100
+
+[System: UDF]
+
+    GSTComplianceCategory: String: 10101
