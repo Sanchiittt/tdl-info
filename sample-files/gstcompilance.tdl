@@ -1,0 +1,15 @@
+[#Part: EI Consignee]
+    Add: Line: After: EI Consignee Name: GSTComplianceLine
+
+[Line: GSTComplianceLine]
+    Fields: Medium Prompt, GSTComplianceField
+    Local: Field: Medium Prompt: Set As: "GST Compliance Category"
+
+[Field: GSTComplianceField]
+    Use     : Short Text Field
+    Storage : GSTComplianceCategory
+    Width   : 40
+    Max     : 100
+
+[System: UDF]
+    GSTComplianceCategory: String: 1003

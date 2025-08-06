@@ -1,0 +1,15 @@
+[#Part: VCH Narration]
+    Add: Line: Before: VCH NarrationLine: GSTComplianceLine
+
+[Line: GSTComplianceLine]
+    Fields: Medium Prompt, GSTComplianceField
+    Local: Field: Medium Prompt: Set As: "GST Compliance Notes"
+
+[Field: GSTComplianceField]
+    Use     : Short Text Field
+    Storage : GSTComplianceNote
+    Width   : 50
+    Max     : 100
+
+[System: UDF]
+    GSTComplianceNote: String: 1002

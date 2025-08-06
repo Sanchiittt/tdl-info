@@ -1,0 +1,15 @@
+[#Part: EI Consignee]
+    Add: Line: After: EI Consignee Name: TransportDetailsLine
+
+[Line: TransportDetailsLine]
+    Fields: Medium Prompt, TransportDetailsField
+    Local: Field: Medium Prompt: Set As: "Transport Details"
+
+[Field: TransportDetailsField]
+    Use     : Short Text Field
+    Storage : TransportDetails
+    Width   : 40
+    Max     : 100
+
+[System: UDF]
+    TransportDetails: String: 1001

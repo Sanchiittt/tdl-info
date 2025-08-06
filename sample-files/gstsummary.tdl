@@ -1,0 +1,32 @@
+[System: Formula]
+    IsSalesVoucher: $$IsSysNameEqual:##SVVoucherType:"Sales"
+
+[Report: GSTCustomSummary]
+    Form: GSTCustomSummaryForm
+    Title: "GST Summary"
+
+[Form: GSTCustomSummaryForm]
+    Part: GSTCustomSummaryPart
+    Space Top: 1
+    Space Bottom: 1
+    Background: WHITE
+
+[Part: GSTCustomSummaryPart]
+    Line: GSTCustomSummaryLine
+
+[Line: GSTCustomSummaryLine]
+    Field: GSTCustomSummaryField
+
+[Field: GSTCustomSummaryField]
+    Use: Name Field
+    Set As: "GST Summary: Taxable: ₹1000 | CGST: ₹90 | SGST: ₹90"
+    Width: 80
+
+[Button: Display GST Summary]
+    Title: "GST Summary"
+    Key: F12
+    Action: Display Report: GSTCustomSummary
+    Visible: ##IsSalesVoucher
+
+[Form: VCH Voucher]
+    Add: Button: Display GST Summary

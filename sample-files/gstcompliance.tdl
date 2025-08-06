@@ -1,0 +1,14 @@
+[#Part: VCH Narration]
+    Add: Line: After: VCH Narration : GST Summary Line
+
+[Line: GST Summary Line]
+    Field: GST Summary Title, GST Summary Details
+
+[Field: GST Summary Title]
+    Set as: "GST Summary:"
+    Width: 15
+    Style: Normal Bold
+
+[Field: GST Summary Details]
+    Set as: "Taxable: ₹1000 | CGST: ₹90 | SGST: ₹90"
+    Width: 60
